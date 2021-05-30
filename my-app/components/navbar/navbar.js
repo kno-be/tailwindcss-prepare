@@ -1,4 +1,4 @@
-const NavBar = () => {
+const navBar = () => {
     const [open, setOpen] = React.useState(false);
     const [flyer, setFlyer] = React.useState(false);
     const [flyerTwo, setFlyerTwo] = React.useState(false);
@@ -806,4 +806,4 @@ const NavBar = () => {
       </>
     );
   };
-  
+export default navBar
