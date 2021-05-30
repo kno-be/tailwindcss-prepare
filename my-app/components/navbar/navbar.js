@@ -1,4 +1,7 @@
-const NavBar = () => {
+import React from 'react';
+
+
+const Nav = () => {
     const [open, setOpen] = React.useState(false);
     const [flyer, setFlyer] = React.useState(false);
     const [flyerTwo, setFlyerTwo] = React.useState(false);
@@ -807,11 +810,4 @@ const NavBar = () => {
     );
   };
 
-  const navbar = () => (
-    <>
-      <NavBar></NavBar>
-    </>
-  );
-
-  ReactDOM.render(<navbar />, document.getElementById("navbar"));
-  export default navbar;
+  export default Nav;
