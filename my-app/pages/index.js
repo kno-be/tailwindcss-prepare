@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
       <nav>
         <Nav></ Nav>
-        </nav>
+      </nav>
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
