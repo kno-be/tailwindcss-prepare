@@ -1,0 +1,32 @@
+.bg {
+    background-color: black;
+}
+
+.page {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+
+}
+
+.list {
+    font-weight: 400;
+    border-color: green;
+    border-width: 0.125rem;
+    border-radius: 1rem;
+    box-shadow: 10px 5px 5px rgb(11, 167, 11);
+    position: relative;
+    width: 20rem;
+    height: auto;
+    background: #0f0;
+}
+
