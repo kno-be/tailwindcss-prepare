@@ -22,7 +22,7 @@ export default function Home() {
               <ul className="text-2xl space-y-11 p-4 my-4">
                 <h1 className="font-bold">Tailwind projects:</h1>
                 <li className="text-base pt-1">Project: <a href="collapse" className="font-semibold text-blue-800">Cart Collapse</a></li>
-                <li className="text-base">Project: <a href="FAQ" className="font-semibold text-red-600">FAQ+ Accordion</a></li>
+                <li className="text-base">Project: <a href="FAQ" className="font-semibold text-blue-800">FAQ+ Accordion</a></li>
                 <li className="text-base">Project: <a href="#" className="font-semibold text-red-600">Pierce Grid Art</a></li>
                 <li className="text-base">Project: <a href="#" className="font-semibold text-red-600">Alerts</a></li>
                 <li className="text-base">Project: <a href="blog" className="font-semibold text-blue-800">Random Blog</a></li>
